@@ -1,0 +1,88 @@
+/*formatação geral*/
+
+html {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: calc(12px + 0.390625vw);
+}
+
+html a {
+    text-decoration: none;
+}
+
+/*formatação topo*/
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vw 3vw;
+}
+
+header p a {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: #1090CB;
+}
+
+header nav ul {
+    display: flex;
+    margin: 1.1vw 0 0 0;
+}
+
+header ul li a {
+    padding: 0 4vw 0 0;
+    color: black;
+}
+
+header ul li.atual a{
+    color: #1090CB;
+}
+
+header ul li.contact a {
+    color: #ffff;
+    background-color: #1090CB;
+    border-radius: 5px;
+    padding: 12px 35px;
+}
+
+.banner {
+    display: flex;
+    background-color: #1090CB20;
+}
+
+.banner div h1 {
+    font-weight: 600;
+    font-size: 3rem;
+    margin: 5vw 12vw 2vw 8vw;
+}
+
+.banner div h1 span {
+    color: #1090CB;
+}
+
+.banner div p {
+    margin: 0 19vw 3.5vw 8vw;
+    color: #5C5C5C;
+    line-height: 1.8vw;
+}
+
+.banner div a.contact {
+    color: #ffff;
+    background-color: #1090CB;
+    margin: 0 1vw 0 8vw;
+    padding: 18px 45px;
+    border-radius: 12px;
+}
+
+.banner div a.view{
+    color: #1090CB;
+    background-color: #ffff;
+    margin: 0 0 0 1vw;
+    padding: 18px 45px;
+    border-radius: 12px;
+    border: 1px solid #1090CB;
+}
+
+.banner img {
+    margin-right: 4vw;
+}
+
