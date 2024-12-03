@@ -86,3 +86,183 @@ header ul li.contact a {
     margin-right: 4vw;
 }
 
+.rectangle ul{
+    display: flex;
+    margin: 4vw 3vw 4vw 3vw;
+    justify-content: center;
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 5px;
+}
+
+.rectangle ul li {
+    display: flex;
+    margin: 0 5vw 2vw 0;
+}
+
+.rectangle img{
+    padding: 0 32px 0 0;
+}
+
+.rectangle div p{
+    color: #969696;
+}
+
+.rectangle div h4 {
+    font-weight: 600;
+}
+
+.rectangle li.roxo img{
+    background-color: #EFEAFF
+}
+
+.rectangle li.verde img{
+    background-color: #ECFFDA
+}
+
+.rectangle li.azul img{
+    background-color: #DAE6FF
+}
+
+.rectangle li.laranja img{
+    background-color: #FFE5DA
+}
+
+.rectangle img {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 2vw 0 0;
+}
+
+.lorem .introducao h2{
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin: 0 0 2vw 0;
+}
+
+.lorem .introducao p{
+    color: #5C5C5C;
+    text-align: center;
+    line-height: 2vw;
+    margin: 2vw 32vw;
+}
+
+.lorem div.celular {
+    display: flex;
+}
+
+.lorem div.telas {
+    display: flex;
+}
+
+.lorem .celular h2{
+    margin: 4vw 9vw 2vw 6vw;
+    font-size: 1.7rem;
+    font-weight: 550;
+}
+
+.lorem span {
+    color: #1090CB;
+}
+
+.lorem .celular p {
+    margin: 3.5vw 0 2vw 6vw;
+    line-height:1.8vw;
+    color: #5C5C5C;
+}
+
+.lorem .celular img{
+    padding-right: 10vw;
+    margin: 0 0 0 10vw;
+}
+
+.lorem .telas h2{
+    margin: 4vw 15vw 3vw 6vw;
+    font-size: 1.7rem;
+    font-weight: 550;
+}
+
+.lorem .telas img{
+    padding-left: 3vw;
+    margin: 0 0 0 15vw;
+}
+
+.lorem .telas p {
+    margin: 0 18vw 2vw 6vw;
+    line-height:1.8vw;
+    color: #5C5C5C;
+}
+
+.kodex {
+    display: flex;
+    margin: 2vw 15vw;
+    text-align: center;
+}
+
+.kodex .branco h3{
+    font-size: 1.4rem;
+    margin: 2vw 10vw;
+    font-weight: 600;
+    line-height: 2.2vw;
+}
+
+.kodex .branco p{
+    color: #545454;
+    margin: 2vw 4.3vw 3vw 4.3vw;
+    line-height: 1.6vw;
+}
+
+.kodex .branco a {
+    background-color: #1090CB;
+    color: #FFFFFF;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+
+.kodex .azul {
+    background-color: #1090CB;
+    border-radius: 18px;
+    padding-bottom: 3vw;
+}
+
+.kodex .azul h3{
+    font-size: 1.4rem;
+    margin: 2vw 8vw;
+    font-weight: 600;
+    line-height: 2.2vw;
+    color: #FFFFFF;
+}
+
+.kodex .azul p{
+    color: #FFFFFF;
+    margin: 2vw 4.3vw 3vw 4.3vw;
+    line-height: 1.6vw;
+}
+
+.kodex .azul a {
+    background-color: #FFFFFF;
+    color: #1090CB;
+    padding: 12px 28px;
+    border-radius: 8px;
+}
+
+.formulario {
+    background-color: #E8F4FA;
+    padding-top: 5px;
+}
+
+.formulario h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin: 5vw 35vw 3vw 35vw;
+    line-height: 3vw;
+}
+
+.formulario form {
+    text-align: center;
+}
+
+.formulario form p input{
+    padding: 10px 32px;
+}
